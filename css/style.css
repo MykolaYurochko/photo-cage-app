@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1250px;
+    background: white;
+    margin: 0 auto;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-75 {
+    width: 75%;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-25 {
+    height: 25%;
+}
+
+.h-50 {
+    height: 50%;
+}
+
+.h-75 {
+   height: 75%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.h-100 {
+   height: 100%;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to bottom, #fefcea, #cecece);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid grey;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+h1 {
+    font-size: 49px;
+    font-family: 'Lobster';
+    color: rgb(90, 90, 90);
+}
+
+h1:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.b-r {
+    border-right: 1px solid rgba(128, 128, 128, 0.39);
+}
+
+.nav-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(90, 90, 90);
+}
+
+.nav-section:hover {
+    background: rgba(75, 75, 75, 0.5);
+    color: white;
+    border-bottom: 3px solid orangered;
+    cursor: pointer;
+}
+
+h2, h3{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+nav h2 {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+
+h1 span {
+    color: orangered;
+}
+
+.fas {
+    font-size: 25px;
+}
+
+.ico-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.text-block {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input,
+button {
+    border: none;
+}
+
+.upload{
+    height: 130px;
+}
+.upload h2 {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    color: rgb(90, 90, 90);
+}
+
+.upload-zone {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 3px;
+    background: orangered;
+    font-size: 18px;
+    color: white;
+}
+
+.way {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid rgba(128, 128, 128, 0.39);
+    box-sizing: border-box;
+}
+
+.way input {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+.way button {
+    height: 100%;
+    width: 100%;
+    color: rgb(90, 90, 90) ;
+    background: #cecece;
+}
+
+.way button:hover {
+    color: #cecece ;
+    background: rgb(90, 90, 90);
+    cursor: pointer;
+}
+
+.in {
+    width: 73%;
+}
+
+.btn button:hover {
+    background: rgba(179, 50, 3, 0.884);
+    cursor: pointer;
+}
+
+.content {
+    height: 650px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.row {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+}
+
+.elem {
+    height: 285px;
+    width: 220px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elem:hover {
+    background: rgba(128, 128, 128, 0.349);
+}
+
+.pic {
+    height: 200px;
+    width: 200px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 11px;
+}
+
+.pic1 {
+    background: url("../img/pic1.jpg");
+    background-size: contain;
+}
+
+.pic2 {
+    background: url("../img/pic2.jpg");
+    background-size: contain;
+}
+
+.pic3 {
+    background: url("../img/pic3.png");
+    background-size: contain;
+}
+
+.pic4 {
+    background: url("../img/pic4.jpg");
+    background-size: contain;
+}
+
+.pic5 {
+    background: url("../img/pic5.png");
+    background-size: contain;
+}
+
+.pic6 {
+    background: url("../img/pic6.png");
+    background-size: contain;
+}
+
+.pic7 {
+    background: url("../img/pic7.jpg");
+    background-size: contain;
+}
+
+.pic8 {
+    background: url("../img/pic8.jpg");
+    background-size: contain;
+}
+
+
+.elem h3,
+.share h3{
+    width: 95%;
+    font-size: 16px;
+    text-align: right;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: rgb(90, 90, 90);
+}
+
+.pic h3 {
+    color: white;
+    margin-left: 5px;
+}
+
+.row .fab {
+    font-size: 16px;
+}
+
+.fa-star:hover {
+    color: gold;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    color: rgb(5, 196, 230);
+    cursor: pointer;
+}
+
+.fa-facebook-f:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.fa-pinterest-p:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-vk:hover {
+    color: rgb(101, 151, 226);
+    cursor: pointer;
+}
+
+footer h2 {
+    height: 50px;
+    width: 100%;
+    background: linear-gradient(to bottom, #cecece, #fefcea);
+    color:  rgb(90, 90, 90);
+    border-top: 1px solid grey;
+    font-size: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.pic {
+    display: flex;
+    align-items: flex-end;
+}
+
+.pic h3 {
+    text-align: left;
+}
